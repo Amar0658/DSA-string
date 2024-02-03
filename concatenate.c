@@ -1,7 +1,6 @@
 #include<stdio.h>
 concat(char *s1,char *s2)
 {
-int len=strlen;
 while(*s1!='\0')
 s1++;
 while(*s2!='\0')
