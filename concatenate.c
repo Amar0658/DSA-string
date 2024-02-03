@@ -9,7 +9,7 @@ while(*s2!='\0')
 s1++;
 s2++;
 }
-*s1='\0';
+*s1='\0';//To fix the last char otherwise it will be rearrange and space will be removed.
 }
 int main()
 {
